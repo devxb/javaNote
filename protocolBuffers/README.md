@@ -6,7 +6,7 @@
    
 proto2를 번역하고 proto3에서의 변경점을 정리한 글이며, 의역과 오역이 다수 존재할 수 있다.   
    
-사용법이 아닌 protocol buffer의 개요를 보고싶다면 블로그(https://dlwnsdud205.tistory.com/327)를 참조하도록 하자.   
+사용법이 아닌 protocol buffer의 개요와 자바에서의 사용법및 직렬화된 데이터와 직렬화되지않은 데이터의 크기차이 테스트를 보고싶다면 블로그(https://dlwnsdud205.tistory.com/328)를 참조하도록 하자.   
    
 ### 목차 
 > #### proto2
@@ -398,6 +398,7 @@ message Foo{
 	string name = "xb"; 
 }
 ```
+추가로, proto3에서는 [default = ]식의 default값을 줄 수 없다.   
    
 다음은 proto3에서 사용 가능한 scalar 타입들이다. 타입별 설명을 자세히 읽지는 않았지만 적어도 지원하는 타입은 proto2와 일치해 보인다. 타입별 설명또한 일치해 보이는거로 봐선 여기서 변경사항은 없는듯 하다.
 [Language Guide (proto3)  |  Protocol Buffers  |  Google Developers](https://developers.google.com/protocol-buffers/docs/proto3#scalar)

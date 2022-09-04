@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="xb.note.protos.ProtoTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2022-09-04T08:07:22" hostname="xb-apple.local" time="18.979">
+  <properties/>
+  <testcase name="serializeDiffNoneSerializeTest()" classname="xb.note.protos.ProtoTest" time="18.979">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[
+
+3211242
+8789173
+2
+
+
+
+
+3211380
+8787943
+4
+
+
+
+
+2734845
+8787578
+8
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
