@@ -1,9 +1,12 @@
 # Protocol Buffers
 
+@translated by xb   
 이 글은 protocol buffer 공식 문서를 보며 사용법을 번역, 정리한 글이다.   
 원문 : [Language Guide  |  Protocol Buffers  |  Google Developers](https://developers.google.com/protocol-buffers/docs/proto)
    
 proto2를 번역하고 proto3에서의 변경점을 정리한 글이며, 의역과 오역이 다수 존재할 수 있다.   
+   
+사용법이 아닌 protocol buffer의 개요를 보고싶다면 블로그(https://dlwnsdud205.tistory.com/327)를 참조하도록 하자.   
    
 ### 목차 
 > #### proto2
