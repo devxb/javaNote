@@ -1,6 +1,7 @@
 syntax = "proto3";
 
-option java_package = "xb.note.grpc";
+package xb.note.grpc;
+//option java_package = "xb.note.grpc";
 option java_outer_classname = "GreetingService";
 option java_multiple_files = true;
 
