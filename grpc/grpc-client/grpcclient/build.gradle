@@ -42,8 +42,8 @@ protobuf{
 sourceSets{
     main{
         java{
-            srcDirs 'build/generated/source/proto/main/grpc/xb/note/protos'
-            srcDirs 'build/generated/source/proto/main/java/xb/note/protos'
+            srcDirs 'build/generated/source/proto/main/grpc/xb/note/grpc'
+            srcDirs 'build/generated/source/proto/main/java/xb/note/grpc'
         }
     }
 }
