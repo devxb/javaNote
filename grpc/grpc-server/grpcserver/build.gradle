@@ -23,7 +23,7 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-//
+
 sourceSets {
     main {
         proto {

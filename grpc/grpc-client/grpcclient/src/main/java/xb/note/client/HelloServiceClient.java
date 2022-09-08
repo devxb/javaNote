@@ -12,7 +12,7 @@ public class HelloServiceClient {
 
     private ManagedChannel managedChannel;
     private HelloServiceGrpc.HelloServiceBlockingStub blockingStub;
-    private HelloServiceGrpc.HelloServiceStub asyncStub;
+    private HelloServiceGrpc.HelloServiceFutureStub asyncStub;
 
     public HelloServiceClient(String host, int port){
         managedChannel = ManagedChannelBuilder
@@ -20,7 +20,7 @@ public class HelloServiceClient {
                 .usePlaintext()
                 .build();
         blockingStub = HelloServiceGrpc.newBlockingStub(managedChannel);
-        asyncStub = HelloServiceGrpc.newStub(managedChannel);
+        asyncStub = HelloServiceGrpc.newFutureStub(managedChannel);
     }
 
     public HelloResponse sayHelloWithBlocking(String message){
