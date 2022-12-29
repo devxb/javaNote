@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="xb.note.acceptance.board.BoardAcceptanceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-12-29T12:12:09" hostname="xb-apple.local" time="0.236">
+  <properties/>
+  <testcase name="글 조회하기 2개글이 저장 되었을때" classname="xb.note.acceptance.board.BoardAcceptanceTest" time="0.233"/>
+  <testcase name="글 조회하기 0개 글이 저장되었을때" classname="xb.note.acceptance.board.BoardAcceptanceTest" time="0.002"/>
+  <system-out><![CDATA[21:12:08.232 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:12:08.236 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:12:08.250 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [xb.note.acceptance.board.BoardAcceptanceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+21:12:08.255 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [xb.note.acceptance.board.BoardAcceptanceTest], using SpringBootContextLoader
+21:12:08.257 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [xb.note.acceptance.board.BoardAcceptanceTest]: class path resource [xb/note/acceptance/board/BoardAcceptanceTest-context.xml] does not exist
+21:12:08.257 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [xb.note.acceptance.board.BoardAcceptanceTest]: class path resource [xb/note/acceptance/board/BoardAcceptanceTestContext.groovy] does not exist
+21:12:08.257 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [xb.note.acceptance.board.BoardAcceptanceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:12:08.258 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [xb.note.acceptance.board.BoardAcceptanceTest]: BoardAcceptanceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:12:08.279 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [xb.note.acceptance.board.BoardAcceptanceTest]
+21:12:08.302 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/devxb/develop/javaNote/module-board/board/application/build/classes/java/main/xb/note/Main.class]
+21:12:08.302 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration xb.note.Main for test class xb.note.acceptance.board.BoardAcceptanceTest
+21:12:08.338 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [xb.note.acceptance.board.BoardAcceptanceTest]: using defaults.
+21:12:08.338 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+21:12:08.342 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+21:12:08.342 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+21:12:08.342 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2a551a63, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a6f5124, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1edb61b1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@ec2bf82, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@cc62a3b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6cc0bcf6, org.springframework.test.context.event.EventPublishingTestExecutionListener@29539e36, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@32f61a31, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@f5c79a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@669253b7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5305c37d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@51a06cbe, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3dddbe65]
+21:12:08.344 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4593ff34 testClass = BoardAcceptanceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@37d3d232 testClass = BoardAcceptanceTest, locations = '{}', classes = '{class xb.note.Main}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@20a14b55, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@abf688e, [ImportsContextCustomizer@30c0ccff key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4c4d27c8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@129b4fe2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@ed3068a, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5167f57d], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.1)
+
+2022-12-29 21:12:08.499  INFO 10496 --- [    Test worker] x.n.a.board.BoardAcceptanceTest          : Starting BoardAcceptanceTest using Java 11.0.15.1 on xb-apple.local with PID 10496 (started by devxb in /Users/devxb/develop/javaNote/module-board/board/application)
+2022-12-29 21:12:08.500  INFO 10496 --- [    Test worker] x.n.a.board.BoardAcceptanceTest          : No active profile set, falling back to 1 default profile: "default"
+2022-12-29 21:12:09.049  INFO 10496 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-12-29 21:12:09.049  INFO 10496 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-12-29 21:12:09.049  INFO 10496 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-12-29 21:12:09.057  INFO 10496 --- [    Test worker] x.n.a.board.BoardAcceptanceTest          : Started BoardAcceptanceTest in 0.694 seconds (JVM running for 1.159)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /article
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"84"]
+             Body = {"title":"hello world","article":"hello world too","author":{"id":1,"name":"devxb"}}
+    Session Attrs = {}
+
+Handler:
+             Type = xb.note.controller.board.BoardController
+           Method = xb.note.controller.board.BoardController#saveArticle(BoardRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /article
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"90"]
+             Body = {"title":"hello world 2","article":"hello world too 2","author":{"id":2,"name":"octocat"}}
+    Session Attrs = {}
+
+Handler:
+             Type = xb.note.controller.board.BoardController
+           Method = xb.note.controller.board.BoardController#saveArticle(BoardRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
