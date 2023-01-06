@@ -20,9 +20,7 @@ import xb.note.controller.board.request.BoardRequest;
 import xb.note.controller.board.response.BoardResponse;
 import xb.note.controller.user.response.UserResponse;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 @SpringBootTest
@@ -112,7 +110,7 @@ public class BoardAcceptanceTest {
                 MockMvcResultMatchers.jsonPath("$.[1].title").value("hello world 2"),
                 MockMvcResultMatchers.jsonPath("$.[1].author.id").value(user2.getId()),
                 MockMvcResultMatchers.jsonPath("$.[1].author.name").value(user2.getName())
-        );
+        ).andDo(MockMvcResultHandlers.print());
     }
 
 }
