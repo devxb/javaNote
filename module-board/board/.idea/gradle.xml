@@ -9,6 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/acceptance" />
+            <option value="$PROJECT_DIR$/acceptance/accept" />
             <option value="$PROJECT_DIR$/application" />
             <option value="$PROJECT_DIR$/boardmanager" />
             <option value="$PROJECT_DIR$/domain" />

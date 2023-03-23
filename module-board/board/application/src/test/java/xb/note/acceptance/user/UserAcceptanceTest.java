@@ -19,6 +19,7 @@ import java.util.Queue;
 
 @SpringBootTest
 @AutoConfigureMockMvc
+@Tag("UAT")
 public class UserAcceptanceTest {
 
     @Autowired
