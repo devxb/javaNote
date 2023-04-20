@@ -22,7 +22,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        projectKey: "devxb_javaNote_AYedjk6XZnUcV1ZzW6Qn"
+        sonar.projectKey: "devxb_javaNote_AYedjk6XZnUcV1ZzW6Qn"
 
     # Check the Quality Gate status.
     - name: SonarQube Quality Gate check
