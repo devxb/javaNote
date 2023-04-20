@@ -18,8 +18,8 @@ jobs:
     # Triggering SonarQube analysis as results of it are required by Quality Gate check.
     - name: Official SonarQube Scan
       uses: SonarSource/sonarqube-scan-action@master
-      with:
-        projectBaseDir: ./clean-architecture/hexagonal
+      with: 
+        working-directory: ./clean-architecture/hexagonal
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
