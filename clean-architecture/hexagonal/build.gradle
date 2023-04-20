@@ -21,3 +21,10 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+sonar {
+    properties {
+        property "sonar.projectKey", "devxb_javaNote_AYedjk6XZnUcV1ZzW6Qn"
+        property "sonar.projectName", "javaNote"
+    }
+}
