@@ -16,12 +16,14 @@ jobs:
         fetch-depth: 0
 
     # Triggering SonarQube analysis as results of it are required by Quality Gate check.
-    - name: SonarQube Scan
+    - name: Official SonarQube Scan
+      uses: SonarSource/sonarqube-scan-action@master
+      with:
+        projectBaseDir: clean-architecture/hexagonal
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-      run: cd ./clean-architecture/hexagonal && ./gradlew build sonar --info
 
     # Check the Quality Gate status.
     - name: SonarQube Quality Gate check
