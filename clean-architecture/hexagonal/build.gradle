@@ -6,9 +6,6 @@ plugins {
 sourceCompatibility = '11'
 targetCompatibility = '11'
 
-group 'org.example'
-version '1.0-SNAPSHOT'
-
 repositories {
     mavenCentral()
 }
@@ -26,5 +23,40 @@ sonar {
     properties {
         property "sonar.projectKey", "devxb_javaNote_AYedjk6XZnUcV1ZzW6Qn"
         property "sonar.projectName", "javaNote"
+    }
+}
+
+allprojects {
+    group = 'org.example'
+    version = '0.0.1-SNAPSHOT'
+
+    targetCompatibility = '11'
+    sourceCompatibility = '11'
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'jacoco'
+
+    repositories {
+        mavenCentral()
+    }
+
+    jacoco {
+        toolVersion = '0.8.9'
+    }
+
+    test {
+        useJUnitPlatform()
+        finalizedBy 'jacocoTestReport'
+    }
+
+    jacocoTestReport {
+        reports {
+            html.required = true
+            csv.required = true
+            xml.required = true
+        }
+        finalizedBy 'jacocoTestCoverageVerification'
     }
 }
