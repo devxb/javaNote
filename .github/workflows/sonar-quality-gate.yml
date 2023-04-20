@@ -19,7 +19,7 @@ jobs:
     - name: Official SonarQube Scan
       uses: SonarSource/sonarqube-scan-action@master
       with:
-        projectBaseDir: clean-architecture/hexagonal
+        projectBaseDir: ./clean-architecture/hexagonal
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
