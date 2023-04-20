@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id "org.sonarqube" version "4.0.0.2929"
 }
 
 sourceCompatibility = '11'
@@ -19,4 +20,11 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+sonar {
+    properties {
+        property "sonar.projectKey", "devxb_javaNote_AYedjk6XZnUcV1ZzW6Qn"
+        property "sonar.projectName", "javaNote"
+    }
 }
