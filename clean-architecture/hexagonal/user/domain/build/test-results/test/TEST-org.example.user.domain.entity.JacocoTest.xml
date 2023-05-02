@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.user.domain.entity.JacocoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-21T07:43:32" hostname="xb-apple.local" time="0.005">
-  <properties/>
-  <testcase name="Jacoco reports가 만들어지나?" classname="org.example.user.domain.entity.JacocoTest" time="0.005"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

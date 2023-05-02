@@ -22,7 +22,6 @@ test {
 sonar {
     properties {
         property "sonar.projectKey", "devxb_javaNote_AYfdR2b5i7-U0-vSiHhS"
-        property "sonar.projectName", "javaNote"
     }
 }
 
