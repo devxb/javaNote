@@ -16,5 +16,10 @@ public class JacocoTest{
     public void MULTI_BRANCH_IS_OK(){
         User user = new User(1, "MULTI");
     }
+    
+    @Test
+    public void 왜_안됨(){
+        User user = new User(1, "돼라..");
+    }
 
 }
