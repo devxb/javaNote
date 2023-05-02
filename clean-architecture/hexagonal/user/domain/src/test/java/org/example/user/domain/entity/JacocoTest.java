@@ -12,4 +12,9 @@ public class JacocoTest{
         User user = new User(1, "Jacoco");
     }
 
+    @Test
+    public void MULTI_BRANCH_IS_OK(){
+        User user = new User(1, "MULTI");
+    }
+
 }
