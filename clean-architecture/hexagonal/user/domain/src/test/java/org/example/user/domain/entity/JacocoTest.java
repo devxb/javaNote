@@ -21,5 +21,10 @@ public class JacocoTest{
     public void 왜_안됨(){
         User user = new User(1, "돼라..");
     }
+    
+    @Test
+    public void 안됨(){
+        User user = new User(1, "안되냐왜");
+    }
 
 }
