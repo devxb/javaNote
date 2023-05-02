@@ -25,7 +25,7 @@ public class UserUserCase implements UserUseCasePort{
 
     @Override
     public UserResponse findById(int id){
-        User response = userRepositoryPort.findById(id);
+        UserResponse response = userRepositoryPort.findById(id);
         return new UserResponse(response.getId(), response.getName());
     }
 
