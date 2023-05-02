@@ -30,6 +30,9 @@ jobs:
           path: ~/.gradle/caches
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
           restore-keys: ${{ runner.os }}-gradle
+          args: >
+            -Dsonar.pullrequest.key=${{ github.event.pull_request.number }}
+            -Dsonar.pullrequest.base=main
       - name: Build and analyze
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
@@ -43,9 +46,6 @@ jobs:
         uses: sonarsource/sonarqube-quality-gate-action@master
         with:
           scanMetadataReportFile: clean-architecture/hexagonal/build/sonar/report-task.txt
-          args: >
-            -Dsonar.pullrequest.key=${{ github.event.pull_request.number }}
-            -Dsonar.pullrequest.base=main
         # Force to fail step after specific time.
         timeout-minutes: 10
         env:
