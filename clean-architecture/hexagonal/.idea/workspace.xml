@@ -5,52 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecf751c6-9526-4fb9-aa58-5f79cd28a064" name="변경" comment="# 제목은 50자 이내로 요약하고, [커밋타입 : 제목] 과 같이 작성한다.&#10;# 이 외의 규칙은 문서 하단의 [체크리스트]를 따른다.&#10;# 제목은 이 아래줄에 한줄로 작성한다.&#10;&#10;&#10;# 본문 - 한 줄에 최대 72 글자까지만 입력한다.&#10;# 1. 무엇을 수정했는지&#10;# 2. 왜 수정했는지&#10;# 본문은 이 아래줄에 작성한다.&#10;&#10;&#10;# 꼬릿말은 아래에 작성한다&#10;&#10;#   [커밋 타입]  리스트&#10;#   feat      : 기능 (새로운 기능)&#10;#   fix       : 버그 (버그 수정)&#10;#   refactor  : 리팩토링&#10;#   style     : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)&#10;#   docs      : 문서 (문서 추가, 수정, 삭제)&#10;#   test      : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)&#10;#   chore     : 기타 변경사항 (빌드 스크립트 수정 등)&#10;#   post     : 블로그 포스트 추가 (신규 포스트 작성 및 수정)&#10;# ------------------&#10;#   [체크리스트]&#10;#     제목 첫 글자는 대문자로 작성했나요?&#10;#     제목은 명령문으로 작성했나요?&#10;#     제목 끝에 마침표(.) 금지&#10;#     제목과 본문을 한 줄 띄워 분리하기&#10;#     본문에 여러줄의 메시지를 작성할 땐 &quot;-&quot;로 구분했나요?&#10;# ------------------₩">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13ce59917e2d581a56697a8668b6ae0b2b15054b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/155e7f1bdfdbbc408e2c791bd23bec12cdc5279d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/161b17a9c642f7eac9f5ca0f8914ccc06301d1cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1ab5125b925c0e5738c6f777df1f6a44b3a1939e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34bcc0db3d5a3c39e78877e56718b7a0777a981e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a461d031166012f1c327f8a19d49cebba4007d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3ea63a5e279a55e4d59368e96937c430a572b0b6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/456a49d9c6ce9b871110922c7de11d91dfcb8595" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59d71686dd08f340e0d4c437cf5a1a8d38baabcb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a703ae3a8c74f9658c2824675e21fe9fffc8d4c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b13e5300a563bebdad7a0904adce572891ad7b5d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3d75009f7d0587ec55e8bc5225ccc28d2d819ff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c000f9bbf8ded1c5443471226de73a587728d1cb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c53b881f52265bff494b0b48138c264bbe0cd52b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/3/13ce59917e2d581a56697a8668b6ae0b2b15054b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/5/155e7f1bdfdbbc408e2c791bd23bec12cdc5279d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/6/161b17a9c642f7eac9f5ca0f8914ccc06301d1cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/a/1ab5125b925c0e5738c6f777df1f6a44b3a1939e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/4/34bcc0db3d5a3c39e78877e56718b7a0777a981e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/a/3a461d031166012f1c327f8a19d49cebba4007d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/e/3ea63a5e279a55e4d59368e96937c430a572b0b6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/5/456a49d9c6ce9b871110922c7de11d91dfcb8595" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/9/59d71686dd08f340e0d4c437cf5a1a8d38baabcb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/7/a703ae3a8c74f9658c2824675e21fe9fffc8d4c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/1/b13e5300a563bebdad7a0904adce572891ad7b5d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/3/b3d75009f7d0587ec55e8bc5225ccc28d2d819ff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/0/c000f9bbf8ded1c5443471226de73a587728d1cb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/5/c53b881f52265bff494b0b48138c264bbe0cd52b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/domain/src/test/java/org/example/user/domain/entity/JacocoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/domain/src/test/java/org/example/user/domain/entity/JacocoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
