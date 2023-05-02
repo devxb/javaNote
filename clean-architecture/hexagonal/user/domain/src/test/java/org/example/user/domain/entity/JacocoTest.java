@@ -8,6 +8,9 @@ class JacocoTest{
     @Test
     @DisplayName("Jacoco reports가 만들어지나?")
     void JACOCO_REPORTS_MAKE_TEST(){
+
+
+
         User user = new User(1, "Jacoco");
     }
 

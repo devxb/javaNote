@@ -1,9 +1,9 @@
 package org.example.user.repository.adaptor;
 
 import org.example.core.meta.Adaptor;
-import org.example.user.domain.entity.User;
 import org.example.user.domain.port.out.UserRepositoryPort;
 import org.example.user.domain.usecase.request.UserCreateRequest;
+import org.example.user.domain.usecase.response.UserResponse;
 import org.example.user.repository.jpa.UserJpaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,9 +28,9 @@ public class UserRepositoryAdaptor implements UserRepositoryPort{
 
     @Override
     @Transactional
-    public User findById(int id){
+    public UserResponse findById(int id){
         org.example.persistence.User finded = userJpaRepository.findById(id).get();
-        return new User(finded.getId(), finded.getName());
+        return new UserResponse(finded.getId(), finded.getName());
     }
 
 }
