@@ -21,7 +21,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-      run: cd ./clean-architecture/hexagonal && ./gradlew build sonar --info
+      run: cd ./clean-architecture/hexagonal && ./gradlew test && ./gradlew testCodeCoverageReport && ./gradlew build sonar --info
 
     # Check the Quality Gate status.
     - name: SonarQube Quality Gate check
