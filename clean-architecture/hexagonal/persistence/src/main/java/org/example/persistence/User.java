@@ -17,7 +17,9 @@ public class User{
     @Column(name = "USER_NAME")
     private String name;
 
-    public User(){}
+    public User(){
+        System.out.println("sonarqube legacy test");
+    }
 
     public User(String name){
         this.name = name;
