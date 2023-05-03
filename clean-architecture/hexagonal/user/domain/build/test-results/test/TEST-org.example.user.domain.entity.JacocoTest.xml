@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.user.domain.entity.JacocoTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-05-03T14:38:37" hostname="xb-apple" time="0.009">
+  <properties/>
+  <testcase name="MULTI_BRANCH_IS_OK()" classname="org.example.user.domain.entity.JacocoTest" time="0.007"/>
+  <testcase name="안됨()" classname="org.example.user.domain.entity.JacocoTest" time="0.0"/>
+  <testcase name="Jacoco reports가 만들어지나?" classname="org.example.user.domain.entity.JacocoTest" time="0.001"/>
+  <testcase name="왜_안됨()" classname="org.example.user.domain.entity.JacocoTest" time="0.0"/>
+  <system-out><![CDATA[레거시 테스트
+레거시 테스트
+레거시 테스트
+레거시 테스트
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
