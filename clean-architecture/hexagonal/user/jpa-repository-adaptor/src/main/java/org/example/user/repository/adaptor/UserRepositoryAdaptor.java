@@ -18,7 +18,6 @@ public class UserRepositoryAdaptor implements UserRepositoryPort{
         this.userJpaRepository = userJpaRepository;
     }
 
-
     @Override
     @Transactional
     public void createUser(UserCreateRequest createRequest){
