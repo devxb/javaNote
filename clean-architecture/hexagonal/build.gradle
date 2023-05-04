@@ -21,8 +21,9 @@ test {
 
 sonar {
     properties {
-        property "sonar.projectKey", "devxb_javaNote_AYedjk6XZnUcV1ZzW6Qn"
-        property "sonar.projectName", "javaNote"
+        property 'sonar.host.url', 'https://sonarcloud.io'
+        property 'sonar.organization', 'devxb'
+        property 'sonar.projectKey', 'devxb_javaNote'
     }
 }
 
